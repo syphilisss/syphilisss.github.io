@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMD Software: Adrenalin Edition</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #f5f5f5;
+            color: #000;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, #c00, #a00);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header img {
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        .content {
+            padding: 40px;
+            line-height: 1.6;
+        }
+        h1 { font-size: 28px; margin: 0; }
+        h2 { color: #c00; font-size: 24px; margin-top: 40px; }
+        .download-box {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 30px;
+            margin: 30px 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 16px 40px;
+            margin: 15px 15px 15px 0;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .btn-amd { background: #c00000; }
+        .btn-amd:hover { background: #a00000; }
+        .btn-nvidia { background: #76b900; }
+        .btn-nvidia:hover { background: #5a8f00; }
+        .btn-uninstaller { background: #333; }
+        .btn-uninstaller:hover { background: #111; }
+        .desc { margin: 10px 0 20px; color: #333; }
+        footer {
+            background: #111;
+            color: #999;
+            text-align: center;
+            padding: 25px;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <img src="https://www.amd.com/themes/custom/amd/logo.svg" alt="AMD Logo">
+        <h1>AMD Software: Adrenalin Edition</h1>
+        <p style="font-size:18px; margin:10px 0 0;">Windows® 10/11 Drivers</p>
+    </header>
+
+    <div class="content">
+
+        <h2>Auto-Detect and Install Driver Updates</h2>
+        <p><strong>For use with systems running Windows® 11 / Windows® 10 64-bit version 1809 and later.<br>
+        Download and run directly onto the system you want to update.</strong></p>
+
+        <!-- AMD Updater -->
+        <div class="download-box">
+            <h2>AMD Driver Updater</h2>
+            <div class="desc">
+                Auto-Detect and Install Driver Updates for AMD Radeon™ Series Graphics and Ryzen™ Chipsets
+            </div>
+            <a href="amd-software-adrenalin-edition-25.11.1-minimalsetup-251111_web.exe" class="btn btn-amd" download>
+                Download AMD Driver
+            </a>
+        </div>
+
+        <!-- NVIDIA Updater -->
+        <div class="download-box">
+            <h2>NVIDIA Driver Updater</h2>
+            <div class="desc">
+                Auto-Detect and Install the latest Game Ready Driver for NVIDIA GeForce graphics cards
+            </div>
+            <a href="nvidia-software-25.11.1-minimalsetup-25111_web.exe" class="btn btn-nvidia" download>
+                Download NVIDIA Driver
+            </a>
+        </div>
+
+        <!-- Display Driver Uninstaller (last) -->
+        <div class="download-box">
+            <h2>Display Driver Uninstaller</h2>
+            <div class="desc">
+                Completely removes AMD and NVIDIA graphics drivers. Recommended before installing new drivers.
+            </div>
+            <a href="amd-nvidia-driver-uninstaller-17155.exe" class="btn btn-uninstaller" download>
+                Download Display Driver Uninstaller (AMD & NVIDIA)
+            </a>
+        </div>
+
+    </div>
+
+    <footer>
+        © 2025 Advanced Micro Devices, Inc. All rights reserved.
+    </footer>
+</div>
+
+</body>
+</html>
